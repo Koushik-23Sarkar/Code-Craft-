@@ -1,5 +1,5 @@
 "use client";
-import { Snippet } from "@/types";
+import { Snippet } from "@/app/types";
 import { useUser } from "@clerk/nextjs";
 import { useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
